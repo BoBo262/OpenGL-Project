@@ -1,0 +1,15 @@
+﻿  GUI_Project_final.cpp
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl update(int)" (?update@@YAXH@Z)
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutTimerFunc referenced in function "void __cdecl update(int)" (?update@@YAXH@Z)
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutSolidSphere referenced in function "void __cdecl drawSphere(void)" (?drawSphere@@YAXXZ)
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutSolidCone referenced in function "void __cdecl drawCone(void)" (?drawCone@@YAXXZ)
+GUI_Project_final.obj : error LNK2019: unresolved external symbol glutSolidCube referenced in function "void __cdecl drawCube(void)" (?drawCube@@YAXXZ)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\lib\x64\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Bogdan\source\repos\GUI_Project_final\x64\Debug\GUI_Project_final.exe : fatal error LNK1120: 12 unresolved externals
